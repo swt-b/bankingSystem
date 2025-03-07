@@ -4,6 +4,7 @@ int accountNumber;
 char accountName[50];
 float accountBalance = 0;
 
+// this function is used to create an account
 void createAccount() {
     printf("Enter your name = ");
     scanf("%s", accountName);
