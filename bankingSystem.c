@@ -13,17 +13,19 @@ void createAccount() {
     
     printf("Account Created \n");
 }
-
+// this function is used to display users information
 void printAccountInfo() {
     printf("Name: %s \n", accountName);
     printf("Account Number: %d \n", accountNumber);
     printf("Balance: %f \n", accountBalance);
 }
 
+//this function is used to check balance 
 void checkBalance() {
     printf("Your Balance is: %f \n", accountBalance);
 }
 
+//this function is used to deposit money 
 void deposit() {
     float deposit;
     printf("Enter the amount to deposit: ");
@@ -33,6 +35,7 @@ void deposit() {
     printf("Your New balance is: %f \n", accountBalance);
 }
 
+//this function is used to withdraw money 
 void withdraw() {
     float withdraw;
     printf("Enter the amount to withdraw: ");
