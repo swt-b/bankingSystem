@@ -59,6 +59,7 @@ int main() {
         printf("Enter your choice = ");
         scanf("%d", &choice);
         
+        //this is a switch case implementation 
         switch(choice) {
             case 1: createAccount(); break;
             case 2: printAccountInfo(); break;
